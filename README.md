@@ -14,7 +14,7 @@ npm install ffmpeg-transitions
 To use this library, you need to import it into your project and call the blendVideos function with the paths of the videos you want to concatenate, the output path for the concatenated video, the transition type, and the duration of the transition.  Here's a basic example:
 
 ```javascript
-import blendVideos from 'your-video-concat-library';
+import blendVideos from 'ffmpeg-transitions'
 
 const videoPaths = [
     'path/to/first/video.mp4',
@@ -56,9 +56,8 @@ The library supports various xfade transitions provided by ffmpeg. Here are some
 - slideright
 - circleclose
 - circleopen
-...and many more.
+  [...and many more.](https://trac.ffmpeg.org/wiki/Xfade)
 
-Refer to the ffmpeg documentation for a complete list of supported transitions.  
 ## API
 
 <b>
