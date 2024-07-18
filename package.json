@@ -1,0 +1,29 @@
+{
+  "name": "ffmpeg-transitions",
+  "version": "1.0.1",
+  "description": "A simple library to concatenate multiple videos into one using xfade transitions.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "ffmpeg",
+    "ffmpeg-fluent",
+    "video",
+    "xfade",
+    "concat",
+    "transitions"
+  ],
+  "author": "H.W. Rick Korsten",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.14.11",
+    "child_process": "^1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
